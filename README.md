@@ -2,10 +2,10 @@ Production SciDB 15.12 query (220MB) client (for standalone or cluster) by Cerbo
 
 # How to run it:
 ```
-docker run -it --rm=true cerbo/scidb-iquery iquery
+docker run -it --rm=true cerbo/scidb-iquery
 ```
 
 # Example:
 ```
-docker run -it --rm=true cerbo/scidb-iquery iquery -c 1.2.3.4
+docker run -it --rm=true cerbo/scidb-iquery -a -c 1.2.3.4
 ```
