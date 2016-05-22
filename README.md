@@ -1,4 +1,9 @@
+# What is this?
+
 Production SciDB 15.12 query (220MB) client (for standalone or cluster) by Cerbo.IO
+
+# Help/Questions/Comments:
+For help or more info, feel free to contact us: support@cerbo.io (http://cerbo.io)
 
 # How to run it:
 ```
