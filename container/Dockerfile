@@ -9,4 +9,5 @@ COPY usr-local-scidb-lib/* /usr/local/scidb/lib/
 COPY usr-lib64/* /usr/lib64/
 COPY libcityhash.so.0 /opt/scidb/15.12/3rdparty/cityhash/lib/
 
-CMD ["/usr/local/scidb/bin/iquery"]
+CMD ["-a"]
+ENTRYPOINT ["/usr/local/scidb/bin/iquery"]
